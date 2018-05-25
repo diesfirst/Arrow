@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (openvdb_cookbook.dir\Release\) contains files shared from another project (openvdb_cookbook.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Forces.cpp
+  particleSystem.cpp
+include\classes\particleSystem.cpp(28): warning C4018: '<': signed/unsigned mismatch
+include\classes\particleSystem.cpp(41): warning C4018: '<': signed/unsigned mismatch
+include\classes\particleSystem.cpp(56): warning C4018: '<': signed/unsigned mismatch
+include\classes\particleSystem.cpp(69): warning C4018: '<': signed/unsigned mismatch
+include\classes\particleSystem.cpp(76): warning C4018: '<': signed/unsigned mismatch
+include\classes\particleSystem.cpp(126): warning C4018: '<': signed/unsigned mismatch
+  test.cpp
+mains\test.cpp(11): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+openvdb_cookbook.dir\Release\Forces.obj : warning LNK4042: object specified more than once; extras ignored
+openvdb_cookbook.dir\Release\particleSystem.obj : warning LNK4042: object specified more than once; extras ignored
+  openvdb_cookbook_test.vcxproj -> C:\Users\Michael\OpenGL\Arrow\.\Output\openvdb_cookbook.exe

@@ -1,0 +1,6 @@
+arrow.sln
+openvdb_cookbook_test.vcxproj
+openvdb_cookbook_test.vcxproj.filters
+openvdb_cookbook_test.vcxproj.user
+/.vs
+/Debug

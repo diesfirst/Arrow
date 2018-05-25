@@ -1,0 +1,20 @@
+﻿  Source_0.cpp
+  Unknown compiler version - please run the configure tests and report the results
+C:\Library\codes\build\OpenVDB\include\openvdb/math/Math.h(467): warning C4244: 'argument': conversion from 'int64_t' to 'long', possible loss of data
+C:\Library\codes\build\OpenVDB\include\openvdb/util/NodeMasks.h(128): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Library\codes\build\OpenVDB\include\openvdb/util/NodeMasks.h(146): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+openvdb.lib(Metadata.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(Archive.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(Transform.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(Formats.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(Compression.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(MetaMap.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(Grid.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(openvdb.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(GridDescriptor.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(Maps.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(Hermite.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+openvdb.lib(QuantizedUnitVec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+libboost_system-vc140-mt-1_61.lib(error_code.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Source_0.obj
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\Michael\Desktop\open_vdb_test\Output\openvdb_cookbook.exe : fatal error LNK1319: 13 mismatches detected
